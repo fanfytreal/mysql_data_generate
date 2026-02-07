@@ -182,6 +182,7 @@ def insert_sample(cursor: pymysql.cursors.Cursor) -> None:
         ST_GeomFromText(%s),
         ST_GeomFromText(%s),
         ST_GeomFromText(%s),
+        ST_GeomFromText(%s),
         ST_GeomFromText(%s)
     )
     """
